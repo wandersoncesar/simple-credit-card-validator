@@ -1,4 +1,4 @@
-function isValidEmail(number) {
+function isValid(number) {
     var val;
     var bit = 1;
     var sum = 0;
@@ -13,4 +13,4 @@ function isValidEmail(number) {
     return sum && sum % 10 === 0;
 }
 
-module.exports = isValidEmail;
+module.exports = isValid;
